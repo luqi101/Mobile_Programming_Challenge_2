@@ -1,0 +1,24 @@
+name: aadil_partners_legal
+description: "A Firebase-backed Flutter law firm portfolio for CS5450 Mobile Programming Challenge 2."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^6.4.1
+  firebase_core: ^4.9.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/portfolio_seed.json

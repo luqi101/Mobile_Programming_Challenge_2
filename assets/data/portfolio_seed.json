@@ -1,0 +1,337 @@
+{
+  "firm_profile": {
+    "default": {
+      "name": "Aadil & Partners Legal",
+      "tagline": "Strategic Legal Counsel. Built on Trust.",
+      "overview": "Aadil & Partners Legal is a fictional full-service law firm designed for the CS5450 Mobile Programming portfolio challenge. The firm presents clear, practical guidance for individuals, families, founders, and growing organizations.",
+      "mission": "To make legal support feel structured, accessible, and calm while maintaining professional judgment and careful advocacy.",
+      "values": [
+        "Clarity before complexity",
+        "Responsive communication",
+        "Respect for client goals",
+        "Ethical and careful representation"
+      ],
+      "whyChooseUs": [
+        "Consultation-first process that identifies priorities before recommending next steps.",
+        "Cross-practice team structure for matters that touch business, family, immigration, property, and employment concerns.",
+        "Plain-language updates so clients understand status, risks, and upcoming decisions."
+      ],
+      "stats": [
+        {
+          "label": "Combined Experience",
+          "value": "42+ yrs"
+        },
+        {
+          "label": "Practice Areas",
+          "value": "8"
+        },
+        {
+          "label": "Client-Focused Consultations",
+          "value": "500+"
+        }
+      ],
+      "phone": "+1 807 555 0147",
+      "email": "consultations@aadilpartners.example",
+      "address": "120 Harbourview Avenue, Suite 410, Thunder Bay, ON",
+      "disclaimer": "This mobile app is an educational portfolio project. It does not provide legal advice and does not create a lawyer-client relationship."
+    }
+  },
+  "practice_areas": [
+    {
+      "id": "corporate-business",
+      "title": "Corporate & Business Law",
+      "shortSummary": "Practical counsel for company formation, contracts, governance, and growth decisions.",
+      "description": "The corporate practice supports fictional entrepreneurs and established organizations with incorporation planning, shareholder agreements, commercial contracts, policy review, and transaction readiness. The focus is on reducing ambiguity before decisions become expensive.",
+      "iconKey": "business",
+      "priority": 1,
+      "featured": true
+    },
+    {
+      "id": "family-law",
+      "title": "Family Law",
+      "shortSummary": "Structured guidance for separation, parenting arrangements, mediation, and support questions.",
+      "description": "The family practice emphasizes respectful planning, careful documentation, and child-focused communication. Representative services include consultation preparation, separation agreement review, mediation support, and practical next-step planning.",
+      "iconKey": "family",
+      "priority": 2,
+      "featured": true
+    },
+    {
+      "id": "real-estate",
+      "title": "Real Estate Law",
+      "shortSummary": "Closing support, title review, purchase documents, leases, and property due diligence.",
+      "description": "The real estate practice helps fictional buyers, sellers, landlords, tenants, and small developers understand obligations before signing or closing. The team reviews key documents and flags practical risks in plain language.",
+      "iconKey": "home",
+      "priority": 3,
+      "featured": true
+    },
+    {
+      "id": "immigration",
+      "title": "Immigration Law",
+      "shortSummary": "Document review and application planning for individuals, families, and employers.",
+      "description": "The immigration practice provides informational review of application packages, supporting documents, timelines, and common preparation gaps. The portfolio avoids outcome promises and focuses on organized, accurate submissions.",
+      "iconKey": "public",
+      "priority": 4,
+      "featured": false
+    },
+    {
+      "id": "civil-litigation",
+      "title": "Civil Litigation",
+      "shortSummary": "Measured advocacy for disputes, negotiations, pleadings, and resolution strategy.",
+      "description": "The litigation practice helps fictional clients evaluate claims, evidence, negotiation paths, procedural deadlines, and settlement options. The team frames disputes around risk, cost, and the client’s practical objectives.",
+      "iconKey": "gavel",
+      "priority": 5,
+      "featured": false
+    },
+    {
+      "id": "criminal-defence",
+      "title": "Criminal Defence",
+      "shortSummary": "Confidential support for charge review, bail preparation, disclosure, and defence planning.",
+      "description": "The criminal defence practice presents careful, confidential support for fictional clients who need to understand process, disclosure, court appearances, and available options. The app does not promise results.",
+      "iconKey": "shield",
+      "priority": 6,
+      "featured": false
+    },
+    {
+      "id": "employment",
+      "title": "Employment Law",
+      "shortSummary": "Advice for workplace contracts, policies, termination packages, and employee concerns.",
+      "description": "The employment practice reviews fictional workplace agreements, offer letters, policy issues, accommodation questions, and termination documents with attention to documentation and respectful dispute resolution.",
+      "iconKey": "work",
+      "priority": 7,
+      "featured": false
+    },
+    {
+      "id": "wills-estates",
+      "title": "Wills, Estates & Trusts",
+      "shortSummary": "Planning-focused support for wills, powers of attorney, estate administration, and trusts.",
+      "description": "The estates practice helps fictional families organize instructions, assets, decision-makers, and estate administration steps. The focus is clarity, dignity, and reducing future conflict.",
+      "iconKey": "account_balance",
+      "priority": 8,
+      "featured": false
+    }
+  ],
+  "attorneys": [
+    {
+      "id": "samira-aadil",
+      "name": "Samira Aadil",
+      "title": "Managing Partner",
+      "specialization": "Corporate governance and civil disputes",
+      "bio": "Samira leads the fictional firm with a calm, strategy-first approach to business planning and commercial conflict. Her portfolio biography is original and created only for this student project.",
+      "credentials": "J.D., called to the fictional Ontario bar",
+      "education": "Lake Superior College of Law, J.D.",
+      "experienceYears": 14,
+      "email": "samira.aadil@aadilpartners.example",
+      "initials": "SA",
+      "priority": 1,
+      "practiceAreaIds": [
+        "corporate-business",
+        "civil-litigation"
+      ]
+    },
+    {
+      "id": "daniel-hart",
+      "name": "Daniel Hart",
+      "title": "Partner",
+      "specialization": "Family law and estates",
+      "bio": "Daniel works with fictional families on practical agreements, planning documents, and respectful dispute resolution. He emphasizes preparation, transparency, and careful communication.",
+      "credentials": "J.D., mediator training certificate",
+      "education": "North Shore Faculty of Law, J.D.",
+      "experienceYears": 11,
+      "email": "daniel.hart@aadilpartners.example",
+      "initials": "DH",
+      "priority": 2,
+      "practiceAreaIds": [
+        "family-law",
+        "wills-estates"
+      ]
+    },
+    {
+      "id": "mira-chen",
+      "name": "Mira Chen",
+      "title": "Associate Lawyer",
+      "specialization": "Immigration and employment matters",
+      "bio": "Mira supports fictional newcomers, employees, and employers with organized document review and process planning. Her work style is direct, detailed, and client-centered.",
+      "credentials": "J.D., workplace investigation training",
+      "education": "Great Lakes School of Law, J.D.",
+      "experienceYears": 7,
+      "email": "mira.chen@aadilpartners.example",
+      "initials": "MC",
+      "priority": 3,
+      "practiceAreaIds": [
+        "immigration",
+        "employment"
+      ]
+    },
+    {
+      "id": "omar-reyes",
+      "name": "Omar Reyes",
+      "title": "Associate Lawyer",
+      "specialization": "Real estate and criminal defence process support",
+      "bio": "Omar helps fictional clients navigate time-sensitive documents, court process questions, and property transactions. He focuses on accuracy, confidentiality, and steady preparation.",
+      "credentials": "J.D., legal clinic advocacy certificate",
+      "education": "Northern Justice Institute, J.D.",
+      "experienceYears": 10,
+      "email": "omar.reyes@aadilpartners.example",
+      "initials": "OR",
+      "priority": 4,
+      "practiceAreaIds": [
+        "real-estate",
+        "criminal-defence"
+      ]
+    }
+  ],
+  "representative_matters": [
+    {
+      "id": "contract-restructure",
+      "title": "Small Business Contract Restructure",
+      "summary": "Assisted a fictional local supplier with reorganizing service terms, payment milestones, and dispute language before a new growth phase.",
+      "practiceAreaId": "corporate-business",
+      "priority": 1,
+      "disclaimer": "Representative matter only. Past results do not guarantee future outcomes."
+    },
+    {
+      "id": "mediation-plan",
+      "title": "Mediation-Focused Family Resolution",
+      "summary": "Supported a fictional family through consultation preparation, document organization, and issue mapping before mediation.",
+      "practiceAreaId": "family-law",
+      "priority": 2,
+      "disclaimer": "Representative matter only. Past results do not guarantee future outcomes."
+    },
+    {
+      "id": "newcomer-document-review",
+      "title": "Newcomer Documentation Review",
+      "summary": "Guided a fictional newcomer through a structured review of application records, timelines, and supporting material.",
+      "practiceAreaId": "immigration",
+      "priority": 3,
+      "disclaimer": "Representative matter only. Past results do not guarantee future outcomes."
+    },
+    {
+      "id": "property-closing-checklist",
+      "title": "Residential Closing Checklist",
+      "summary": "Helped a fictional purchaser understand title review items, closing funds, insurance timing, and post-closing records.",
+      "practiceAreaId": "real-estate",
+      "priority": 4,
+      "disclaimer": "Representative matter only. Past results do not guarantee future outcomes."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-jr",
+      "clientInitials": "J.R.",
+      "serviceArea": "Business Law",
+      "quote": "The consultation helped us understand the contract issues clearly before we made a decision.",
+      "rating": 5,
+      "priority": 1
+    },
+    {
+      "id": "testimonial-ap",
+      "clientInitials": "A.P.",
+      "serviceArea": "Family Law",
+      "quote": "The team made a difficult process feel organized and respectful from the first meeting.",
+      "rating": 5,
+      "priority": 2
+    },
+    {
+      "id": "testimonial-ns",
+      "clientInitials": "N.S.",
+      "serviceArea": "Real Estate",
+      "quote": "We appreciated the plain-language explanation of every closing document and deadline.",
+      "rating": 5,
+      "priority": 3
+    },
+    {
+      "id": "testimonial-lm",
+      "clientInitials": "L.M.",
+      "serviceArea": "Employment",
+      "quote": "The review was practical, confidential, and focused on the decisions we needed to make.",
+      "rating": 4,
+      "priority": 4
+    }
+  ],
+  "resources": [
+    {
+      "id": "prepare-consultation",
+      "title": "What to Prepare Before a Legal Consultation",
+      "summary": "A practical checklist for organizing documents, questions, and timelines before meeting a lawyer.",
+      "body": "A productive consultation starts with preparation. Bring a short timeline, copies of key documents, names of important parties, and a list of decisions you need to make. If dates matter, write them down clearly. If money is involved, organize amounts and payment records. This resource is informational for a student portfolio and is not legal advice.",
+      "category": "Consultation",
+      "readTimeMinutes": 3,
+      "priority": 1,
+      "publishedDate": "2026-05-01"
+    },
+    {
+      "id": "contract-review-basics",
+      "title": "Understanding Contract Review",
+      "summary": "Key terms to notice before signing a business or service agreement.",
+      "body": "Contract review is not only about finding unusual wording. It is about understanding obligations, deadlines, payment rules, termination rights, confidentiality language, and dispute steps. A careful review can identify unclear language before a disagreement starts. This resource is fictional portfolio content and does not replace advice from a qualified lawyer.",
+      "category": "Business",
+      "readTimeMinutes": 4,
+      "priority": 2,
+      "publishedDate": "2026-05-04"
+    },
+    {
+      "id": "when-to-contact-lawyer",
+      "title": "When to Contact a Lawyer",
+      "summary": "Common moments when early legal guidance may help reduce confusion.",
+      "body": "People often wait until a dispute becomes urgent before asking for guidance. Early contact may help when you receive formal documents, plan to sign an agreement, face a deadline, need to respond to a claim, or are unsure what records to preserve. This app is a class project and does not provide legal advice.",
+      "category": "Planning",
+      "readTimeMinutes": 3,
+      "priority": 3,
+      "publishedDate": "2026-05-08"
+    },
+    {
+      "id": "confidentiality-first-meeting",
+      "title": "Confidentiality and the First Meeting",
+      "summary": "What clients can expect from a professional intake conversation.",
+      "body": "A first meeting usually focuses on identity checks, conflict checks, matter history, documents, goals, and next steps. A firm may need to complete required checks before it can act. Submitting an online form is not the same as forming a lawyer-client relationship. This resource is educational portfolio content only.",
+      "category": "Intake",
+      "readTimeMinutes": 2,
+      "priority": 4,
+      "publishedDate": "2026-05-12"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-relationship",
+      "question": "Does submitting the consultation form create a lawyer-client relationship?",
+      "answer": "No. The form is an intake request for this educational portfolio app. A lawyer-client relationship would require conflict checks, acceptance by the firm, and a formal engagement process.",
+      "category": "Intake",
+      "priority": 1
+    },
+    {
+      "id": "faq-documents",
+      "question": "What documents should I bring to a consultation?",
+      "answer": "Bring the documents that created the issue, recent correspondence, important dates, payment records if relevant, and a short list of questions.",
+      "category": "Consultation",
+      "priority": 2
+    },
+    {
+      "id": "faq-fees",
+      "question": "How are legal fees discussed?",
+      "answer": "A professional consultation should explain expected fee structure, possible disbursements, billing timing, and what work is included before a client decides how to proceed.",
+      "category": "Fees",
+      "priority": 3
+    },
+    {
+      "id": "faq-confidential",
+      "question": "Is the consultation confidential?",
+      "answer": "Confidentiality depends on the jurisdiction, the firm process, and whether a formal relationship is created. This project uses confidentiality language for demonstration only.",
+      "category": "Privacy",
+      "priority": 4
+    },
+    {
+      "id": "faq-timeline",
+      "question": "How long does a matter take?",
+      "answer": "Timelines depend on complexity, documents, other parties, court or agency scheduling, and client decisions. This app avoids promising timelines or outcomes.",
+      "category": "Process",
+      "priority": 5
+    },
+    {
+      "id": "faq-remote",
+      "question": "Can consultations happen remotely?",
+      "answer": "The fictional firm supports phone or video intake for many matters, subject to identity verification and document review requirements.",
+      "category": "Access",
+      "priority": 6
+    }
+  ]
+}

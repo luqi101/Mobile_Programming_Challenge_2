@@ -1,0 +1,88 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isShortString(value, min, max) {
+      return value is string && value.size() >= min && value.size() <= max;
+    }
+
+    function isOptionalPhone(value) {
+      return value is string && value.size() <= 32;
+    }
+
+    function isValidEmail(value) {
+      return value is string
+        && value.size() >= 6
+        && value.size() <= 120
+        && value.matches('^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$');
+    }
+
+    function isValidContactRequest() {
+      let data = request.resource.data;
+      return data.keys().hasOnly([
+          'fullName',
+          'email',
+          'phone',
+          'practiceArea',
+          'message',
+          'consent',
+          'status',
+          'source',
+          'createdAt'
+        ])
+        && isShortString(data.fullName, 2, 80)
+        && isValidEmail(data.email)
+        && isOptionalPhone(data.phone)
+        && isShortString(data.practiceArea, 2, 80)
+        && isShortString(data.message, 20, 1500)
+        && data.consent == true
+        && data.status == 'new'
+        && data.source == 'mobile_app'
+        && data.createdAt == request.time;
+    }
+
+    match /firm_profile/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /practice_areas/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /attorneys/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /representative_matters/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /testimonials/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /resources/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /faqs/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /contact_requests/{docId} {
+      allow create: if isValidContactRequest();
+      allow read, update, delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
